@@ -37,6 +37,8 @@ keymap("n", "<leader>h", "<cmd>nohlsearch<CR>", opts)
 
 -- Close buffers
 keymap("n", "<S-q>", "<cmd>Bdelete!<CR>", opts)
+keymap("n", "88", "<C-d>", opts)
+keymap("n", "99", "<C-u>", opts)
 
 -- Better paste
 keymap("v", "p", '"_dP', opts)
@@ -49,6 +51,11 @@ keymap("i", "kj", "<ESC>", opts)
 -- Stay in indent mode
 keymap("v", "<", "<gv", opts)
 keymap("v", ">", ">gv", opts)
+
+
+-- keymap("n", "<X1Mouse>", "<C-o>", opts)
+
+
 
 -- Plugins --
 
